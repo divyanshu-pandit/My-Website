@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AS Finance</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header Section  -->
+  <header>
+    <nav>
+      <div> <img src="as.PNG" alt=""></div>
+      <ul class="nav-links">
+        <li><a href="INDEX.HTML">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <!-- <li><a href="loan.html">Loans </a></li> -->
+         <li class="dropdown">
+  <a href="#" class="dropbtn">Loans <span class="arrow">▼</span></a>
+  <div class="dropdown-content">
+    <div class="loan-section">
+      <div class="loan-list">
+        <h2>Provided Loans</h2>
+        <ul>
+          <li>Personal Loan    <span class="badg">PRE-APPROVED</span> </li>
+          <li>Home Loan</li>
+          <li>Car Loan</li>
+          <li>Business Loan</li>
+          <li>Loan against Property</li>
+        </ul>
+      </div>
+      <div class="loan-image">
+        <img src="home l.png" alt="Loan Protection">
+      </div>
+    </div>
+  </div>
+</li>
+
+        <!-- <li><a href="#">Tools</a></li> -->
+           <li class="dropdown">
+  <a href="#" class="dropbtn">Tools <span class="arrow">▼</span></a>
+  <div class="dropdown-content">
+    <div class="loan-section">
+      <div class="loan-list">
+        <ul>
+          <li>Eligibility Calculator</li>
+          <li>EMI Calculator</li>
+        </ul>
+        <!-- <h3>Eligibility Calculator</h3>
+        <h3>EMI Calculator</h3>
+       -->
+      </div>
+      <div class="loan-image">
+        <img src="tool.png" alt="Loan Protection">
+      </div>
+    </div>
+  </div>
+</li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="Blog.html">Blog</a></li>
+      </ul>
+      <button class="btn-top"> Check Eligibility </button>
+    </nav>
+  </header>
+</body>
+<script>
+  // सभी dropbtn select करो
+  const dropBtns = document.querySelectorAll('.dropbtn');
+
+  dropBtns.forEach(btn => {
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      this.parentElement.classList.toggle('active');
+    });
+  });
+</script>
+
+
+
+</html>
+
+<!-- Second Section -->
+<section class="Second">
+  <div class="Second-text">
+    <h1>Get the Best Loan Options in Minutes </h1>
+    <h3>Personal, Business & Home Loans with Fast Approval and Competitive Rates</h3>
+    <ul>
+      <li> Multiple Bank Tie-Ups</li>
+      <li> Minimal Documentation</li>
+      <li> Fast Processing</li>
+    </ul>
+    <div class="Second-Buttons">
+      <button class="btn-1">Apply Now</button>
+      <button class="btn-2">WhatsApp Us</button>
+
+    </div>
+    <p>• Free • Secure • No impact on credit score</p>
+
+  </div>
+
+
+
+  <!-- form  -->
+  <div class="Second-form">
+    <h2>Get a Call Back</h2>
+    <form>
+      <div class="Second-group">
+        <label>Your Name*</label>
+        <input type="text" placeholder="Enter your name*" required>
+      </div>
+      <div class="Second-group">
+        <label> Phone Number</label>
+        <input type="tel" placeholder="+911208493345" required>
+      </div>
+      <div class="Second-group">
+        <label>Loan type</label>
+        <select>
+          <option>Choose...</option>
+          <option>Personal Loan</option>
+          <option>Business Loan</option>
+          <option>Home Loan</option>
+        </select>
+      </div>
+      <div class="Second-group">
+        <label> City*</label>
+        <input type="text" placeholder="Enter your city*" required>
+      </div>
+      <button type="submit" class="btn-primary">Check Eligibility</button>
+    </form>
+  </div>
+</section>
+
+
+
+
+<!-- Banner  -->
+<section class="banner">
+  <div class="stats">
+    <div class="stat">
+      <img src="bank.png" alt="">
+      <h2>20+</h2>
+      <p>Bank & NBFC Partners</p>
+    </div>
+    <div class="stat">
+      <img src="year.png" alt="">
+      <h2>10+</h2>
+      <p>Years Experience</p>
+    </div>
+    <div class="stat">
+      <img src="happy c.png" alt="Customers Icon">
+      <h2>5000+</h2>
+      <p>Happy Customers</p>
+    </div>
+    <div class="stat">
+      <img src="india.png" alt="India Icon">
+      <h2>24+</h2>
+      <p>PAN India Support</p>
+    </div>
+  </div>
+  <div class="eligibility">
+    <div class="eligibility-text">
+      <h2> <img src="ee.png" alt=""> Check Your Loan Eligibility Instantly</h2>
+      <p>Know how much you can get and which bank suits you best — in just 60 seconds.</p>
+      <p class="highlight">Free • Secure • No impact on credit score</p>
+    </div>
+    <div class="eligibility-btn">
+      <button class="btn">Check Eligibility Now</button>
+    </div>
+  </div>
+
+</section>
+
+<!-- next -->
+
+
+<section class="offer">
+  <div class="off">
+    <button >Exclusive Offers</button>
+    <h1>Pre-Approved Loan Offers for You</h1>
+    <p>Instant disbursals with zero paperwork — select your preferred lender and get funded in as little as 24 hours.
+    </p>
+  </div>
+
+</section>
+
+<section class="loan-offers">
+  <div class="loan-banner">
+    <div class="banner-left">
+      <img src="tata.png" alt="TATA CAPITAL Logo" class="logo">
+      <div class="loan-info">
+        <h3>TATA CAPITAL</h3>
+        <p>Personal & Business Loans</p>
+        <span class="badge">PRE-APPROVED</span>
+      </div>
+    </div>
+    <div class="banner-middle">
+      <p>Rate </p>
+      <p>Fee</p>
+      <p> 10.99%</p>
+      <p> 1% only</p>
+    </div>
+    <div class="banner-right">
+      <button class="apply-btn">Apply →</button>
+    </div>
+  </div>
+
+  <div class="loan-banner">
+    <div class="banner-left">
+      <img src="bajaj.png" alt="Bajaj Finserv Logo" class="logo">
+      <div class="loan-info">
+        <h3>Bajaj Finserv</h3>
+        <p>Personal & Business Loans</p>
+        <span class="badge">PRE-APPROVED</span>
+      </div>
+    </div>
+    <div class="banner-middle">
+      <p>Rate </p>
+      <p>Fee</p>
+      <p> 10.99%</p>
+      <p> 0.5% only</p>
+    </div>
+    <div class="banner-right">
+      <button class="apply-btn">Apply →</button>
+    </div>
+  </div>
+</section>
+
+<section class="loan-offers">
+  <div class="loan-banner">
+    <div class="banner-left">
+      <img src="indu.png" alt="TATA CAPITAL Logo" class="logo">
+      <div class="loan-info">
+        <h3>IndusInd Bank</h3>
+        <p>Personal & Business Loans</p>
+        <span class="badge">PRE-APPROVED</span>
+      </div>
+    </div>
+    <div class="banner-middle">
+      <p>Rate </p>
+      <p>Fee</p>
+      <p> 10.99%</p>
+      <p> Wave Off</p>
+    </div>
+    <div class="banner-right">
+      <button class="apply-btn">Apply →</button>
+    </div>
+  </div>
+
+  <div class="loan-banner">
+    <div class="banner-left">
+      <img src="pr.png" alt="Bajaj Finserv Logo" class="logo">
+      <div class="loan-info">
+        <h3>PONEWALA Fin Corp</h3>
+        <p>Personal & Business Loans</p>
+        <span class="badge">PRE-APPROVED</span>
+      </div>
+    </div>
+    <div class="banner-middle">
+      <p>Rate </p>
+      <p>Fee</p>
+      <p> 10.99%</p>
+      <p> 1% only</p>
+    </div>
+    <div class="banner-right">
+      <button class="apply-btn">Apply →</button>
+    </div>
+  </div>
+</section>
+
+
+<!-- next -->
+
+<section class="today">
+  <div class="t1">
+    <h2>Why AS Finance?</h2>
+    <p>
+      AS Finance is a dedicated financial consultancy committed to helping individuals and businesses secure the right
+      loan solutions with confidence. With strong partnerships across leading banks and NBFCs, we simplify the borrowing
+      process by comparing multiple offers to ensure competitive interest rates, flexible tenure options, and smooth
+      approvals.
+    </p>
+    <p>
+      Whether you are looking for a Home Loan, Personal Loan, Business Loan, Auto Loan, or Loan Against Property, our
+      experienced team provides transparent guidance and end-to-end support — from application to disbursal.
+    </p>
+    <p>
+      We focus on clarity, speed, and customer-first service, ensuring every client receives tailored financial
+      solutions aligned with their goals.
+    </p>
+  </div>
+
+    <div class="metrics-container">
+    <div class="metrics-box">
+      <img src="b1-removebg-preview.png" alt="Loan Icon" class="metrics-icon">
+      <div class="metrics-text">
+        <h3>3,000+</h3>
+        <p>Loan Applications Processed</p>
+      </div>
+    </div>
+    <div class="metrics-box">
+      <img src="b2-removebg-preview.png" alt="Bank Icon" class="metrics-icon">
+      <div class="metrics-text">
+        <h3>20+</h3>
+        <p>Trusted Banking & NBFC Partners</p>
+      </div>
+    </div>
+    <div class="metrics-box">
+      <img src="b2-removebg-preview.png" alt="Clients Icon" class="metrics-icon">
+      <div class="metrics-text">
+        <h3>2,000+</h3>
+        <p>Happy Clients Served</p>
+      </div>
+    </div>
+    <div class="metrics-box">
+      <img src="b3-removebg-preview.png" alt="Experience Icon" class="metrics-icon">
+      <div class="metrics-text">
+        <h3>10+</h3>
+        <p>Years of Industry Experience</p>
+      </div>
+    </div>
+    <div class="metrics-box">
+      <img src="b4-removebg-preview.png" alt="Cities Icon" class="metrics-icon">
+      <div class="metrics-text">
+        <h3>24+</h3>
+        <p>Cities Covered</p>
+      </div>
+    </div>
+    <div class="metrics-box">
+      <img src="b5-removebg-preview.png" alt="Approval Icon" class="metrics-icon">
+      <div class="metrics-text">
+        <h3>95%</h3>
+        <p>Approval Assistance</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <button class="btn-t">Know More →</button>
+  </div>
+</section>
+
+<!-- today 2 -->
+
+<section class="services">
+  <h2>Our Services</h2>
+  <div class="services-grid">
+    <div class="service-card">
+      <img src="home.png" alt="Home Loan">
+      <h3>Home Loan</h3>
+
+      <p>Make your dream home a reality with flexible and affordable financing.</p>
+      <div class="buttons">
+        <button class="apply">Apply Now</button>
+        <button class="details">Details -></button>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <img src="pl.png" alt="Personal Loan">
+      <h3>Personal Loan</h3>
+
+      <p>Get quick funds for your personal needs with fast approval and easy repayment.</p>
+      <div class="buttons">
+        <button class="apply">Apply Now</button>
+        <button class="details">Details -></button>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <img src="BL.png" alt="Business Loan">
+      <h3>Business Loan</h3>
+
+      <p>Fuel your business growth with structured and reliable financial support.</p>
+      <div class="buttons">
+        <button class="apply">Apply Now</button>
+        <button class="details">Details -></button>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <img src="car.png" alt="Car Loan">
+      <h3>Car Loan</h3>
+
+      <p>Finance your new or used vehicle with competitive rates and quick processing.</p>
+      <div class="buttons">
+        <button class="apply">Apply Now</button>
+        <button class="details">Details -></button>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <img src="last.png" alt="Loan Against Property">
+      <h3>Loan against Property</h3>
+
+      <p>Unlock the value of your property to access higher loan amounts at better rates.</p>
+      <div class="buttons">
+        <button class="apply">Apply Now</button>
+        <button class="details">Details -></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- today 3-->
+
+<section class="how-it-works">
+  <h2>How It Works</h2>
+  <p class="sub-heading">A simple, transparent process to get your loan approved faster</p>
+
+  <div class="steps-grid">
+    <div class="step-box">
+      <img src="1.png" alt="Submit Details">
+      <h3>1. Submit Your Details</h3>
+      <p>Share your basic information through our secure form or WhatsApp to get started.</p>
+    </div>
+
+    <div class="step-box">
+      <img src="2.png" alt="Compare Lenders">
+      <h3>2. We Compare Lenders</h3>
+      <p>We check your profile across multiple banks and NBFCs to find the most suitable options.</p>
+    </div>
+
+    <div class="step-box">
+      <img src="3.png" alt="Eligibility Check">
+      <h3>3. Eligibility Check</h3>
+      <p>Our team verifies your eligibility and shares the best offers with interest rates and terms.</p>
+    </div>
+
+    <div class="step-box">
+      <img src="5.png" alt="Loan Disbursal">
+      <h3>4. Loan Disbursal</h3>
+      <p>Once approved, the loan amount is quickly disbursed to your bank account.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- today-4  -->
+
+<section class="footer-s">
+  <div class="footer-c">
+
+
+    <div class="footer-col">
+      <img src="as.png" alt="AS Finance Logo" class="logo-1">
+      <p>AS Finance provides transparent and reliable loan solutions with competitive rates and hassle-free processing
+        to support your financial goals.</p>
+
+    </div>
+
+    <div class="footer-col">
+      <h3>Loans</h3>
+      <ul>
+        <li>Home Loan</li>
+        <li>Personal Loan</li>
+        <li>Business Loan</li>
+        <li>Car Loan</li>
+        <li>Loan Against Property</li>
+      </ul>
+    </div>
+
+
+    <div class="footer-col">
+      <h3>Contact Us</h3>
+      <p>📞 +911204696588</p>
+      <p>📱 +91 8588934118</p>
+      <p>📱 +91 9211928779</p>
+      <p>✉️ asfinance924@gmail.com</p>
+      <p>📍 D-67 Noida sec - 2 near noida sec 15/16 metro station 201301</p>
+    </div>
+
+
+    <div class="footer-col">
+      <h3>Subscribe</h3>
+      <p>Get updates on new products and exclusive offers.</p>
+      <form>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+  </div>
+</section>
